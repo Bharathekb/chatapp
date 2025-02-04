@@ -72,3 +72,33 @@ body {
   color: blue;
   text-decoration: none;
 }
+.Form-box {
+  padding: 24px;
+  margin: auto;
+  width: 400px;
+  border: 1px solid #e4dbca;
+  border-radius: 8px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  -ms-border-radius: 8px;
+  -o-border-radius: 8px;
+}
+.Account-box .Para {
+  color: #1e1e1e;
+}
+.Submit-btn {
+  color: #fff;
+  background: #f97300;
+  width: 100%;
+}
+.Submit-btn:hover {
+  color: #fff;
+  background: #ff4b07;
+}
+.Heading {
+  color: #32012f;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 24px;
+}
