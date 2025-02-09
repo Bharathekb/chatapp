@@ -1,4 +1,16 @@
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap");
+/*
+My colors
+======================
+Headings  = #32012F
+text = #1E1E1E
+paragraphs = #524C42
+backgound = #E2DFD0
+buttons background = #F97300 and color = #32012F hover color = #B6C7AA
+border color = #E4DBCA
+placeholder = #AEA0A0
+box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+*/
 body {
   font-family: Inter;
 }
@@ -101,4 +113,52 @@ body {
   font-size: 24px;
   font-weight: 600;
   line-height: 24px;
+}
+/*Sidebar*/
+.Sidebar {
+  background: #000;
+  color: #fff;
+  height: 100vh;
+}
+.navBar ul li {
+  list-style: none;
+}
+.Sidebtns {
+  display: flex;
+  justify-content: end;
+  gap: 12px;
+}
+.Sidebarlink {
+  padding: 16px;
+  display: block;
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: 500;
+}
+.Right-main {
+  width: 100%;
+  padding: 16px;
+}
+.MainHeader {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.Chat-container {
+  padding: 16px 0 16px 16px;
+  border: 1px solid #e4dbca;
+}
+.ChatHeading {
+  text-align: center;
+}
+.Chatbox {
+  width: 100%;
+  height: 450px;
+  overflow: auto;
+  position: relative;
+  padding-right: 16px;
+}
+.Send-form {
+  position: absolute;
+  bottom: 16px;
 }
